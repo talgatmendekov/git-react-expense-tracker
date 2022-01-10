@@ -34,11 +34,12 @@ function App() {
       id: 5, 
       title:'Kindergarden',
       amount: 300,
-      date: new Date(2021, 10, 26)
+      date: new Date(2021, 10, 29)
     },
   ]
   return (
     <div className="App">
+      <h3>Hello</h3>
      <Expenses data = {expenses}/>
     </div>
   );
