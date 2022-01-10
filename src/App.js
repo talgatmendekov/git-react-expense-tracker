@@ -39,7 +39,6 @@ function App() {
   ]
   return (
     <div className="App">
-      <h3>Hello</h3>
      <Expenses data = {expenses}/>
     </div>
   );
